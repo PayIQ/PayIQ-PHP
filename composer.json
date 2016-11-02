@@ -1,0 +1,35 @@
+{
+  "name"       : "payiq/payiq-php",
+  "description": "",
+  "homepage"   : "http://payiq.se",
+  "keywords"    : ["PayIQ"],
+  "type"       : "library",
+  "license"    : "GPL-2.0+",
+  "authors"     : [
+    {
+      "name"    : "PayIQ",
+      "email"   : "info@payiq.se",
+      "homepage": "http://payiq.se/"
+    },
+    {
+      "name"    : "Angry Creative",
+      "email"   : "hej@angrycreative.se",
+      "homepage": "https://angrycreative.se"
+    },
+    {
+      "name"    : "Peter Elmered",
+      "email"   : "peter@elmered.com",
+      "homepage": "http://elmered.com"
+    }
+  ],
+  "support"     : {
+    "issues": "https://github.com/payiq/payiq-php/issues"
+  },
+  "autoload": {
+    "psr-4": {"PayIQ\\PHP\\": "src/"}
+  },
+  "require"    : {
+    "composer/installers": "~1.0",
+    "monolog/monolog": "~1.2"
+  }
+}
