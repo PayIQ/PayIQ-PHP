@@ -6,7 +6,7 @@ namespace PayIQ\PHP;
 error_reporting(E_ALL);
 ini_set("display_errors", 1);
 
-abstract class AbstractPayIQHelper extends APIClient
+abstract class AbstractPayIQHelper
 {
     const VERSION = '1.0.0';
 
